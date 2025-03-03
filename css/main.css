@@ -5,12 +5,12 @@ html {
 
 @font-face {
     font-family: AvertaRegular;
-    src: url("../fonts/Averta-Regular.otf");
+    src: url("../fonts/v2/Genshin.ttf");
   }
 
   @font-face {
     font-family: AvertaBold;
-    src: url("../fonts/Averta-Bold.otf");
+    src: url("../fonts/v2/Baloo2-Bold.ttf");
   }
 
 .bgimg-1,
@@ -34,15 +34,16 @@ html {
     position: fixed;
     right: 0;
     bottom: 0;
-    min-width: 100%;
-    min-height: 100%;
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
     z-index: -100;
     background-repeat: no-repeat;
     background-size: cover;      
     background-position: center center;
     background-attachment: fixed;
-
 }
+
 
 .content {
     position: fixed;
